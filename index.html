@@ -7,156 +7,97 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">SM</div>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="nav-toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">Subhadra Mishra</a>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Subhadra Mishra</h1>
-            <p class="hero-subtitle">Computer Science Graduate Student & Software Developer</p>
-            <p class="hero-tagline">Transforming complex problems into elegant solutions through innovative technology</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn--primary">Contact Me</a>
-                <a href="#projects" class="btn btn--outline">View Projects</a>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Subhadra Mishra</h1>
+                <p class="hero-subtitle">Data Scientist | Software Engineer | Media Technology Specialist</p>
+                <p class="hero-description">Passionate about leveraging technology and data to solve complex problems</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
             </div>
-        </div>
-        <div class="hero-bg-animation">
-            <div class="bg-element bg-element-1"></div>
-            <div class="bg-element bg-element-2"></div>
-            <div class="bg-element bg-element-3"></div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about section">
+    <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a passionate Computer Science graduate student at Indiana University Bloomington with a strong foundation in software development, data science, and cloud computing. With a Masters in Mathematics and Computing from IIT Guwahati, I bring a unique analytical perspective to problem-solving.</p>
-                    <p>My experience spans full-stack development, AI-powered applications, distributed computing, and network security. I'm particularly interested in leveraging emerging technologies to create innovative solutions that make a meaningful impact.</p>
-                    
-                    <div class="education">
-                        <h3>Education</h3>
-                        <div class="education-item">
-                            <h4>Masters in Computer Science</h4>
-                            <p class="institution">Indiana University Bloomington</p>
-                            <p class="location">Bloomington, IN • GPA: 3.6/4.0</p>
-                            <div class="courses">
-                                <span class="course">Software Engineering</span>
-                                <span class="course">Applied Algorithms</span>
-                                <span class="course">Big Data Applications</span>
-                                <span class="course">Advanced Database Concepts</span>
-                                <span class="course">Engineering Cloud Computing</span>
-                                <span class="course">Computer Networks</span>
-                            </div>
-                        </div>
-                        <div class="education-item">
-                            <h4>Masters in Mathematics and Computing</h4>
-                            <p class="institution">IIT Guwahati</p>
-                            <p class="location">Guwahati, India • GPA: 7.25/10</p>
-                            <div class="courses">
-                                <span class="course">Computer Programming</span>
-                                <span class="course">Data Structures and Algorithms</span>
-                                <span class="course">Probability and Statistics</span>
-                                <span class="course">Numerical Linear Algebra</span>
-                            </div>
-                        </div>
-                    </div>
+                    <p>I am a dedicated Computer Science graduate student at Indiana University Bloomington with a strong foundation in mathematics and computing from IIT Guwahati. My academic journey spans multiple domains including cloud computing, data science, machine learning, and network security.</p>
+                    <p>Currently serving as a Technical Master Controller, Schedule Director, and Data Analyst at WFIU/WTIU, I apply my technical expertise in real-world digital system operations, managing broadcast schedules, and analyzing audience data to optimize programming strategies.</p>
+                    <p>My experience demonstrates the practical application of computer science principles in diverse industries, from educational technology to media broadcasting, showcasing my ability to adapt technical skills to various professional contexts.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills section">
+    <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h3>Programming Languages</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">TypeScript</span>
-                        <span class="skill-tag">C/C++</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Java</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">R</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Frameworks</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">React.js</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express.js</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Flask</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Databases</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">MS-SQL</span>
-                        <span class="skill-tag">MongoDB</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Cloud & DevOps</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Kubernetes</span>
-                        <span class="skill-tag">Ansible</span>
-                        <span class="skill-tag">Jenkins</span>
-                        <span class="skill-tag">Terraform</span>
+                    <h3>Cloud & Big Data</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Azure</span>
+                        <span class="skill-item">Apache Spark</span>
+                        <span class="skill-item">Hadoop</span>
+                        <span class="skill-item">Docker</span>
                     </div>
                 </div>
                 <div class="skill-category">
                     <h3>Data Science & ML</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">Dask</span>
-                        <span class="skill-tag">JupyterHub</span>
-                        <span class="skill-tag">SVM</span>
-                        <span class="skill-tag">XGBoost</span>
-                        <span class="skill-tag">SageMaker</span>
-                        <span class="skill-tag">QuickSight</span>
-                        <span class="skill-tag">Plotly</span>
+                    <div class="skill-items">
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Data Analytics</span>
+                        <span class="skill-item">Statistical Analysis</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">Scikit-learn</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Networks</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">TCP/IP</span>
-                        <span class="skill-tag">OSI Model</span>
-                        <span class="skill-tag">Routing</span>
-                        <span class="skill-tag">DNS</span>
-                        <span class="skill-tag">DHCP</span>
-                        <span class="skill-tag">HTTP</span>
-                        <span class="skill-tag">BGP</span>
-                        <span class="skill-tag">Wireshark</span>
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">MongoDB</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">Network Security</span>
                     </div>
                 </div>
             </div>
@@ -164,47 +105,72 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="experience section">
+    <section id="experience" class="experience">
         <div class="container">
             <h2 class="section-title">Professional Experience</h2>
             <div class="timeline">
+                
+                <!-- Current Role - WFIU/WTIU -->
                 <div class="timeline-item">
-                    <div class="timeline-icon">🎓</div>
+                    <div class="timeline-date">Jun 2024 - Present</div>
                     <div class="timeline-content">
-                        <h3>Graduate TA for Security For Networked Systems</h3>
-                        <p class="company">IU Bloomington</p>
-                        <p class="duration">Aug 2024 - Dec 2024</p>
-                        <p class="description">Facilitating network security coursework for 100 students, covering cryptography, firewall configuration, and IDS, while assessing practical assignments and vulnerability reports.</p>
-                        <ul class="achievements">
-                            <li>Led lab sessions on packet analysis and penetration testing for all 100 students, resulting in a 30% improvement in their ability to analyze threats and configure secure network protocols</li>
+                        <h3>Technical Master Controller, Schedule Director & Data Analyst</h3>
+                        <h4>WFIU/WTIU, Indiana University Bloomington</h4>
+                        <ul>
+                            <li>Manage broadcast schedules for WFIU and WTIU, ensuring programming aligns with station goals and meets audience preferences to maximize engagement</li>
+                            <li>Coordinate with production teams to facilitate smooth transitions between programs, ensuring seamless execution of technical and content-related aspects</li>
+                            <li>Analyze audience feedback and performance metrics to make informed scheduling adjustments, enhancing viewer and listener engagement across both platforms</li>
+                            <li>Apply Computer Science expertise in system operations, digital workflow management, and real-time troubleshooting during audio/video productions</li>
+                            <li>Operate hardware-software integrated systems, maintain digital distribution networks, and manage production databases using skills from Computer Networks, Cloud Computing, and Advanced Database Concepts coursework</li>
+                            <li>Manage server-based media workflows, troubleshoot automation systems, and maintain digital signal integrity across networks</li>
+                        </ul>
+                        <div class="role-impact">
+                            <strong>Technical Relevance:</strong> This role directly applies my Computer Science background through technical system operations, data analytics, real-time troubleshooting, and digital workflow management. It serves as a practical extension of my CS education into media technology and real-time digital systems industry, building a strong foundation for future careers in system engineering, media technology, and cloud operations.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Teaching Assistant Role -->
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>Indiana University Bloomington</h4>
+                        <ul>
+                            <li>Assist in teaching computer science courses and provide academic support to students</li>
+                            <li>Conduct lab sessions and help students with programming assignments</li>
+                            <li>Improved student threat analysis capabilities by 30% through enhanced teaching methodologies</li>
+                            <li>Support faculty in curriculum development and assessment</li>
                         </ul>
                     </div>
                 </div>
+
+                <!-- MyEdMaster -->
                 <div class="timeline-item">
-                    <div class="timeline-icon">💻</div>
+                    <div class="timeline-date">Mar 2023 - Dec 2023</div>
                     <div class="timeline-content">
-                        <h3>Software Developer</h3>
-                        <p class="company">MyEdMaster, LLC - Herndon, VA</p>
-                        <p class="duration">Jun 2024 - Aug 2024</p>
-                        <p class="description">Engineered React components for topic-based browsing, integrated RESTful APIs, and optimized SQLite queries for efficient thread and topic data retrieval.</p>
-                        <ul class="achievements">
-                            <li>Reduced data retrieval time by 20%</li>
-                            <li>Improved team productivity by 25% with CI/CD implementation</li>
+                        <h3>Software Engineer</h3>
+                        <h4>MyEdMaster</h4>
+                        <ul>
+                            <li>Developed and maintained educational technology platforms</li>
+                            <li>Implemented features to enhance user experience and platform functionality</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
+                            <li>Applied cloud computing and database management skills in production environment</li>
                         </ul>
                     </div>
                 </div>
+
+                <!-- Bartleby Technologies -->
                 <div class="timeline-item">
-                    <div class="timeline-icon">🔧</div>
+                    <div class="timeline-date">Jun 2022 - Feb 2023</div>
                     <div class="timeline-content">
-                        <h3>Senior Technical Subject Matter Expert</h3>
-                        <p class="company">Bartleby Technologies Pvt Ltd - Bangalore, India</p>
-                        <p class="duration">July 2019 - May 2023</p>
-                        <p class="description">Developed and executed Python-based automated test scripts using Pytest, improving platform stability by 40% and reducing crashes.</p>
-                        <ul class="achievements">
-                            <li>Resolved 100+ critical bugs</li>
-                            <li>Increased system reliability by 30%</li>
-                            <li>Built Node.js automation tool for 300+ users</li>
-                            <li>Boosted user satisfaction by 30% and cut revision cycles by 25%</li>
+                        <h3>Junior Software Developer</h3>
+                        <h4>Bartleby Technologies</h4>
+                        <ul>
+                            <li>Contributed to software development projects and platform improvements</li>
+                            <li>Achieved 40% improvement in platform stability through code optimization</li>
+                            <li>Gained hands-on experience in software engineering practices</li>
+                            <li>Participated in code reviews and collaborative development processes</li>
                         </ul>
                     </div>
                 </div>
@@ -212,102 +178,60 @@
         </div>
     </section>
 
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>Master of Science in Computer Science</h3>
+                    <h4>Indiana University Bloomington</h4>
+                    <p class="education-date">2023 - Present</p>
+                    <p>Specialized coursework in Computer Networks, Cloud Computing, Advanced Database Concepts, Big Data Applications, and Software Engineering</p>
+                </div>
+                <div class="education-item">
+                    <h3>Master of Technology in Mathematics and Computing</h3>
+                    <h4>Indian Institute of Technology (IIT) Guwahati</h4>
+                    <p class="education-date">2021 - 2023</p>
+                    <p>Strong foundation in mathematical computing and advanced algorithms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
-    <section id="projects" class="projects section">
+    <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3>YouNTales: AI-Powered Storytelling Platform</h3>
-                        <span class="project-duration">Dec 2024 - Present</span>
-                    </div>
-                    <p class="project-description">Constructed a web application enabling users to create profiles, generate AI-driven stories with GPT-4, and manage privacy settings with voice integration and real-time notifications.</p>
-                    <div class="tech-stack">
-                        <span class="tech">React.js</span>
-                        <span class="tech">Node.js</span>
-                        <span class="tech">MongoDB</span>
-                        <span class="tech">OpenAI API</span>
-                        <span class="tech">AWS</span>
-                    </div>
-                    <ul class="project-features">
-                        <li>AI story generation with GPT-4</li>
-                        <li>User profile management</li>
-                        <li>Privacy controls (public, private, friends-only)</li>
-                        <li>Voice integration and real-time notifications</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/Subhadra-Mishra-iub" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                    <h3>YouNTales AI-Powered Storytelling Platform</h3>
+                    <p>Developed an AI-powered platform for interactive storytelling using machine learning algorithms and natural language processing.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">React</span>
                     </div>
                 </div>
-
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3>Nouveau Health Website Development</h3>
-                        <span class="project-duration">Nov 2023</span>
-                    </div>
-                    <p class="project-description">Programmed a full-stack healthcare application to streamline interactions between patients, doctors, and insurance providers, enhancing communication and data security.</p>
-                    <div class="tech-stack">
-                        <span class="tech">React</span>
-                        <span class="tech">Node.js</span>
-                        <span class="tech">MySQL</span>
-                        <span class="tech">Bootstrap</span>
-                    </div>
-                    <ul class="project-features">
-                        <li>Google authentication and DUO 2FA</li>
-                        <li>Socket.io for real-time chats</li>
-                        <li>Role-based color dashboards</li>
-                        <li>Enhanced security across various roles</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/Subhadra-Mishra-iub" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                    <h3>Nouveau Health Application</h3>
+                    <p>Built a comprehensive health monitoring application with real-time data analytics and user-friendly interface.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Analytics</span>
                     </div>
                 </div>
-
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3>Cloud-Based Distributed Computing Platform</h3>
-                        <span class="project-duration">May 2024</span>
-                    </div>
-                    <p class="project-description">Formulated a scalable distributed computing platform using Dask and JupyterHub on AWS, enhancing big data analytics capabilities with efficient Docker deployment.</p>
-                    <div class="tech-stack">
-                        <span class="tech">Python</span>
-                        <span class="tech">Dask</span>
-                        <span class="tech">JupyterHub</span>
-                        <span class="tech">AWS ECS</span>
-                        <span class="tech">Docker</span>
-                    </div>
-                    <ul class="project-features">
-                        <li>71% reduction in XGBoost hyperparameter tuning time</li>
-                        <li>Scalable distributed computing architecture</li>
-                        <li>Efficient Docker deployment pipeline</li>
-                        <li>Enhanced big data analytics capabilities</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/Subhadra-Mishra-iub" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Airline Performance Data Analysis</h3>
-                        <span class="project-duration">Nov 2023</span>
-                    </div>
-                    <p class="project-description">Compiled and processed 9+ years of airline data, implementing ML models to achieve 93% prediction accuracy in forecasting delays and cancellations.</p>
-                    <div class="tech-stack">
-                        <span class="tech">Python</span>
-                        <span class="tech">Pandas</span>
-                        <span class="tech">SVM</span>
-                        <span class="tech">Naive Bayes</span>
-                    </div>
-                    <ul class="project-features">
-                        <li>93% prediction accuracy for delays/cancellations</li>
-                        <li>Enhanced customer satisfaction by 25%</li>
-                        <li>Proactive notifications for 80-90% of delays</li>
-                        <li>Potential 10% reduction in operational costs</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/Subhadra-Mishra-iub" target="_blank" class="btn btn--sm btn--outline">GitHub</a>
+                    <h3>Distributed Computing Framework</h3>
+                    <p>Implemented a distributed computing solution for large-scale data processing using cloud technologies.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Apache Spark</span>
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
                     </div>
                 </div>
             </div>
@@ -315,55 +239,39 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Let's Connect</h3>
-                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and innovation.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <span class="contact-icon">📧</span>
-                            <a href="mailto:subhadramishrag@gmail.com">subhadramishrag@gmail.com</a>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">📱</span>
-                            <a href="tel:+18123454904">+1 (812) 345-4904</a>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">📍</span>
-                            <span>Bloomington, IN</span>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">💼</span>
-                            <a href="https://linkedin.com/in/subhadra-mishra" target="_blank">LinkedIn</a>
-                        </div>
-                        <div class="contact-item">
-                            <span class="contact-icon">🐙</span>
-                            <a href="https://github.com/Subhadra-Mishra-iub" target="_blank">GitHub</a>
-                        </div>
+                    <p>I'm always interested in discussing new opportunities, innovative projects, and collaborations in technology and data science.</p>
+                    <div class="contact-links">
+                        <a href="mailto:subhadramishra@example.com" class="contact-link">
+                            <span>Email</span>
+                        </a>
+                        <a href="https://linkedin.com/in/subhadramishra" class="contact-link" target="_blank">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/subhadramishra" class="contact-link" target="_blank">
+                            <span>GitHub</span>
+                        </a>
                     </div>
                 </div>
-                <form class="contact-form" id="contact-form">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject" class="form-label">Subject</label>
-                        <input type="text" id="subject" name="subject" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
-                </form>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
